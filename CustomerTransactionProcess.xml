@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-12-06T19:54:19.973Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="G_3yuYu_fzoWU3fsbNqo" version="20.6.0" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-12-06T20:12:16.592Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0 Safari/537.36" etag="kHugVLJGVcC9ieNfFdRo" version="20.6.0" type="github" pages="3">
   <diagram id="5CWa_9KNuSxYUafeT1hp" name="Level 0">
     <mxGraphModel dx="1710" dy="1914" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -169,10 +169,46 @@
           <mxGeometry x="670" y="850" width="430" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eNV_kRN_aTI4iiqBOH3P-44" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;3.0 Fulfill Order (Level 1)&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=30;" vertex="1" parent="1">
-          <mxGeometry x="855" y="890" width="220" height="50" as="geometry" />
+          <mxGeometry x="880" y="890" width="220" height="50" as="geometry" />
         </mxCell>
         <mxCell id="eNV_kRN_aTI4iiqBOH3P-45" value="Kenia Balestra" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="1">
           <mxGeometry x="960" y="940" width="140" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="eNV_kRN_aTI4iiqBOH3P-46" target="eNV_kRN_aTI4iiqBOH3P-47">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-46" value="2.0 Charge Customer" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1115" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="eNV_kRN_aTI4iiqBOH3P-47" target="eNV_kRN_aTI4iiqBOH3P-48">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-47" value="3.1 &lt;br&gt;Grab Ordered Items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="275" y="1225" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-56" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="eNV_kRN_aTI4iiqBOH3P-48" target="eNV_kRN_aTI4iiqBOH3P-49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-48" value="3.2&lt;br&gt;Validade Items" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="426" y="1225" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="eNV_kRN_aTI4iiqBOH3P-49" target="eNV_kRN_aTI4iiqBOH3P-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-49" value="3.3 &lt;br&gt;Provide to Customer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="575" y="1225" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-58" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=14;" edge="1" parent="1" source="eNV_kRN_aTI4iiqBOH3P-50" target="eNV_kRN_aTI4iiqBOH3P-52">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-50" value="3.4&lt;br&gt;Thank Customer" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1225" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-52" value="End" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="725" y="1375" width="100" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="eNV_kRN_aTI4iiqBOH3P-59" value="2022-12-06" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry y="1670" width="100" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
